@@ -239,7 +239,7 @@ Alice -> Bob : message 6
 
 ![](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuNBCoKnELT2rKt3AJrAmKiXDBIvEJ4zLCCGbOSJ5bPTQNW1aSk5IOenBmWIkLy5HeIIp92TL8Is_IA4a8pKcBoUnk4G1hx6ck2JCk1nIyrA0dW40)
 
-## 1.9 组合消息
+## 1.10 组合消息
 - 可以通过以下关键字组合消息：
     - alt/else
     - opt
@@ -279,3 +279,26 @@ end
 ```
 
 ![](http://www.plantuml.com/plantuml/png/XP11JiGm34NtFiM_05BPia1JX5W1GlG4cTGTed7ZaZX2StlIqCMe266ftlI_BxySihbaPHRg9NZ6pJqUz8WxzCK-E5hmpe96lFDduMn4JWn3yPvpdeh0kyn4ArB9Ll6RxMjwCHw9M39Zq9bn3d64JfXSa98u_zVnz9CZEYKj2rukqAy8SKU-klnPJvLSjpDp_emcHwWZgWjkkww3XPapOPkTzUFhiB4jmN7ykxtzhT-crKUj5oVOPU4hizQpStiJTfL8svkk7OUwoYpV)
+
+## 1.11 给消息添加注释
+- 通过在消息后面增加`note left`或者`note right`关键字来给消息增加注释
+- 也可以通过`end note`添加多行注释
+
+```
+@startuml
+Alice -> Bob : hello
+note left: this is a first note
+
+Bob -> Alice : ok
+note right: this is another note
+
+Bob -> Bob: I'm thinking
+note left
+a note
+can also be defined
+on serveral lines
+end note
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/png/LOyn3i8m34Ltd-9lJ5mW0ofi72DjtIQgwqY9uVmuoW18bcnzloVBKxDOxNKAtIKlZEiDZp8Z8B588It64Duim59ky8hOScs6lYBgi3j33YZ7K6hUqw_ZOUBwxtWBU5xEJkcHTVzUepZG9IgYj8APiVAMbLSgYiRrpJKAn9D6hEl09v_ybGy0)
