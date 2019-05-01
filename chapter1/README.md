@@ -197,3 +197,44 @@ Alice --> Bob : Yet Another Authentication Reqsponse
 ![](http://www.plantuml.com/plantuml/png/bOun2y9034Rt-nMXNNGeNa4NgGTrTt4JSMXhr8DwqRla_nli8bImpddvtck4ASYznGXPrRgZjVQKcIsrK3YeUzyXhA4Mlc5WtpNiAS0UduA9pN0k55J-AvOU518Qys4fLs_Hh1ANvzL2t7oi2wH3SR9smAVfbnPAgmKN2WmTzHGt4SzEYtQOKdD5i30AEY3_6wKlFyDU)
 
 - 可以使用`autonumber stop`和`autonumber resume` *increment* *format* 来表示暂停或继续使用自动编号
+
+## 1.8 页面标题、页眉和页脚
+- 使用`title`关键字增加页面标题
+- 使用`header`和`footer`关键字增加页眉和页脚
+
+```
+@startuml
+header 这是页眉
+footer 图 %page% of %lastpage%
+
+title Example title
+
+Alice -> Bob : message 1
+Bob -> Alice : message 2
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuSf8JKn9BL9uiN_cindhNoxS-dnE9rTQVdu9KEpfx7qAgWM9wQcg2lbf2gevYSKbO1uNLqbcIKwgWcj5Ocu1a0RpkBWSSpAJKnLqxHISyfCKh1HoKukBWQeL3Bc0V90mH1uXOSJba9gN0dG30000)
+
+## 1.9 分割示意图
+- 关键字`newpage`用于把一张图分割成多张
+- 在`newpage`后添加文字，作为新的示意图的标题
+
+```
+@startuml
+Alice -> Bob : message 1
+Alice -> Bob : message 2
+
+newpage
+
+Alice -> Bob : message 3
+Alice -> Bob : message 4
+
+newpage A title for the\nlast page
+
+Alice -> Bob : message 5
+Alice -> Bob : message 6
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuNBCoKnELT2rKt3AJrAmKiXDBIvEJ4zLCCGbOSJ5bPTQNW1aSk5IOenBmWIkLy5HeIIp92TL8Is_IA4a8pKcBoUnk4G1hx6ck2JCk1nIyrA0dW40)
