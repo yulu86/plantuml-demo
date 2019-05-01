@@ -4,7 +4,7 @@
 
 -  可以使用`->`绘制参与者之间传递的消息。    
 *也可以使用`-->`绘制虚线箭头。此外还能使用`<-`和`<--`，提高可读性。*
-```plantuml
+```
 @startuml
 Bob -> Alice : Authentication Request
 Alice --> Bob : Authentication Response
@@ -27,7 +27,7 @@ Bob <-- Alice : Another Authetication Response
   - database
   - collections
 
-```plantuml
+```
 @startuml
 actor Foo1
 boundary Foo2
@@ -49,7 +49,7 @@ Foo1 -> Foo6 : To collections
 - 关键字`as`用于重命名参与者
 - 可以使用RGB或颜色名修改actor或者参与者的颜色
 
-```plantuml
+```
 @startuml
 actor Bob #red
 participant Alice
@@ -65,7 +65,7 @@ Bob -> L : Log transaction
 
 - 可以使用关键字`order`自定义顺序来打印参与者
 
-```plantuml
+```
 @startuml
 participant Last order 30
 participant Middle order 20
