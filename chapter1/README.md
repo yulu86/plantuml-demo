@@ -74,3 +74,57 @@ participant First order 10
 ```
 
 ![](http://www.plantuml.com/plantuml/png/AqWiAibCpYn8p2jHy4aiBb78Bqf9BL8mDk12bl7DJ4d9IONA6Q7AkMKMmRKP6W00)
+
+## 1.3 在参与者中使用非字母符号
+
+-  可以使用引号定义参与者
+-  可以使用`as`给参与者定义别名
+
+```
+@startuml
+Alice -> "Bob()" : hello
+"Bob()" -> "This is very\nlong" as Long #FFFF00
+Long --> "Bob()" : ok
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuNBCoKnELT2rKr1ooa_Iq5HIi5B8ICt9oUU2yi5I8HcPnGf0L9PQL1cJbvEVbwwaa5Yiu0DaA2Yx0O610HUOeujYK7usbqDgNWhG6W00)
+
+## 1.4 给自己发消息
+
+- 参与者可以给自己发消息
+- 消息文字可以用`\n`来换行
+
+```
+@startuml
+Alice -> Alice :  "This is a signal to myself.\nIt also demostrates\nmultiline\ntext"
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/png/9Son2i9G38NXlKznwAuFu21rT7UyIx1H0qakDAUWR--5mZ_yqxSKPUCUFjtSdehJ5STSWFdniS98KFPESR0ZVgN-EhUy4-BLiMhquYRKQXcxqznIMrA_dAT5Sntw7m00)
+
+## 1.5 修改箭头样式
+有以下几种方式：
+ - 一条丢失的消息：末尾加`x`
+ - 箭头只有上半部分或下半部分：将`<`和`>`替换成`\`或者`/`
+ - 细箭头：将箭头标记写两次，如`>>`或`//`
+ - 虚线箭头：用`--`替代`-`
+ - 箭头末尾加圈：`->o`
+ - 双向箭头：`<->`
+
+ ```
+ @startuml
+ Bob ->x Alice
+ Bob -> Alice
+ Bob ->> Alice
+ Bob -\ Alice
+ Bob \\- Alice
+ Bob //-- Alice
+ Bob ->o Alice
+ Bob o\\-- Alice
+ Bob <-> Alice
+ Bob <->o Alice
+ @enduml
+ ```
+
+ ![](http://www.plantuml.com/plantuml/png/Kt3AJrBGjQjGSCp9J4xbWd9HUQZS66HUJ8mkCbTVNrSNLMy-CZS_9WPLtWRLAXiazGwfUIcbkJa0)
