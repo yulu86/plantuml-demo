@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [1. 时序图](README.md)
+* [1. 时序图](chapter1/index.md)
     * [1.1 简单示例](chapter1/section1.md)
     * [1.2 声明与参与者](chapter1/section2.md)
     * [1.3 在参与者中使用非字母符号](chapter1/section3.md)
