@@ -20,3 +20,4 @@
     * [1.16 引用](chapter1/section16.md)
     * [1.17 延迟](chapter1/section17.md)
     * [1.18 空间](chapter1/section18.md)
+    * [1.19 生命线的激活与撤销](chapter1/section19.md)
