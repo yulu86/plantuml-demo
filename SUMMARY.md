@@ -18,3 +18,4 @@
     * [1.14 Creole和HTML](chapter1/section14.md)
     * [1.15 分隔符](chapter1/section15.md)
     * [1.16 引用](chapter1/section16.md)
+    * [1.17 延迟](chapter1/section17.md)
