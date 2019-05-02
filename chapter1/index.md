@@ -13,3 +13,5 @@
 * [1.11 给消息添加注释](section11.md)
 * [1.12 其他注释](section12.md)
 * [1.13 改变备注的形状](section13.md)
+* [1.14 Creole和HTML](section14.md)
+* [1.15 分隔符](section15.md)
