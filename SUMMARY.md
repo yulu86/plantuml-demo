@@ -30,3 +30,5 @@
     * [1.26 移除注脚](chapter1/section26.md)
     * [1.27 外观参数](chapter1/section27.md)
     * [1.28 填充区设置](chapter1/section28.md)
+* [2. 用例图](chapter2/index.md)
+    * [2.1 用例](chapter2/section1.md)
