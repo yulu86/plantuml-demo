@@ -23,3 +23,4 @@
     * [1.19 生命线的激活与撤销](chapter1/section19.md)
     * [1.20 Return](chapter1/section20.md)
     * [1.21 创建参与者](chapter1/section21.md)
+    * [1.22 进入和发出消息](chapter1/section22.md)
