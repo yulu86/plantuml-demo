@@ -25,3 +25,5 @@
 * [1.23 构造类型和圈点](section23.md)
 * [1.24 更多标题信息](section24.md)
 * [1.25 包裹参与者](section25.md)
+* [1.26 移除注脚](section26.md)
+* [1.27 外观参数](section27.md)
