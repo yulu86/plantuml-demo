@@ -25,3 +25,5 @@
     * [1.21 创建参与者](chapter1/section21.md)
     * [1.22 进入和发出消息](chapter1/section22.md)
     * [1.23 构造类型和圈点](chapter1/section23.md)
+    * [1.24 更多标题信息](chapter1/section24.md)
+    * [1.25 包裹参与者](chapter1/section25.md)
