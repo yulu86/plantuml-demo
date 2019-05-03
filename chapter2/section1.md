@@ -5,6 +5,6 @@
 ```plantuml
 @startuml
 (First usercase)
-
+(Another usercase) 
 @enduml
 ```
