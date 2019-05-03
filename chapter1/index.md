@@ -22,3 +22,4 @@
 * [1.20 Return](section20.md)
 * [1.21 创建参与者](section21.md)
 * [1.22 进入和发出消息](section22.md)
+* [1.23 构造类型和圈点](section23.md)

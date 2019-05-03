@@ -24,3 +24,4 @@
     * [1.20 Return](chapter1/section20.md)
     * [1.21 创建参与者](chapter1/section21.md)
     * [1.22 进入和发出消息](chapter1/section22.md)
+    * [1.23 构造类型和圈点](chapter1/section23.md)
