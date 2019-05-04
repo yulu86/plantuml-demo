@@ -43,3 +43,5 @@
     * [2.10 从左向右方向](chapter2/schapter2/ection10.md)
     * [2.11 显示参数](chapter2/section11.md)
     * [2.12 一个完整的例子](chapter2/section12.md)
+* [3. 类图](chapter3/index.md)
+    * [3.1 类之间的关系](chapter3/section1.md)
