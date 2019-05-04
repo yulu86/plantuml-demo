@@ -7,3 +7,4 @@
 * [2.5 继承](section5.md)
 * [2.6 使用注释](section6.md)
 * [2.7 构造类型](section7.md)
+* [2.8 改变箭头方向](section8.md)
