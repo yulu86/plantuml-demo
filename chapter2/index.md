@@ -9,3 +9,6 @@
 * [2.7 构造类型](section7.md)
 * [2.8 改变箭头方向](section8.md)
 * [2.9 分割图示](section9.md)
+* [2.10 从左向右方向](section10.md)
+* [2.11 显示参数](section11.md)
+* [2.12 一个完整的例子](section12.md)

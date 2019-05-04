@@ -40,3 +40,6 @@
     * [2.7 构造类型](chapter2/section7.md)
     * [2.8 改变箭头方向](chapter2/section8.md)
     * [2.9 分割图示](chapter2/section9.md)
+    * [2.10 从左向右方向](chapter2/schapter2/ection10.md)
+    * [2.11 显示参数](chapter2/section11.md)
+    * [2.12 一个完整的例子](chapter2/section12.md)
