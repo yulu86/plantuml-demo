@@ -33,3 +33,4 @@
 * [2. 用例图](chapter2/index.md)
     * [2.1 用例](chapter2/section1.md)
     * [2.2 角色](chapter2/section2.md)
+    * [2.3 用例描述](chapter2/section3.md)
