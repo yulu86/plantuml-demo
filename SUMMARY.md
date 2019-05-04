@@ -37,3 +37,4 @@
     * [2.4 基础示例](chapter2/section4.md)
     * [2.5 继承](chapter2/section5.md)
     * [2.6 使用注释](chapter2/section6.md)
+    * [2.7 构造类型](chapter2/section7.md)

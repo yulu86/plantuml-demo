@@ -6,3 +6,4 @@
 * [2.4 基础示例](section4.md)
 * [2.5 继承](section5.md)
 * [2.6 使用注释](section6.md)
+* [2.7 构造类型](section7.md)
