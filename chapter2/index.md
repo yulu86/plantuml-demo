@@ -8,3 +8,4 @@
 * [2.6 使用注释](section6.md)
 * [2.7 构造类型](section7.md)
 * [2.8 改变箭头方向](section8.md)
+* [2.9 分割图示](section9.md)

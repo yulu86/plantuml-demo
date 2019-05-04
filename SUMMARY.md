@@ -39,3 +39,4 @@
     * [2.6 使用注释](chapter2/section6.md)
     * [2.7 构造类型](chapter2/section7.md)
     * [2.8 改变箭头方向](chapter2/section8.md)
+    * [2.9 分割图示](chapter2/section9.md)
